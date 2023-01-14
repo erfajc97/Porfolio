@@ -4,7 +4,7 @@
      width: 80%;
      height:100vh;
      position: fixed;
-    z-index: 100;
+     z-index: 100;
    
     
 }
@@ -112,11 +112,10 @@ label p{
 }
 
 .contacts{
-    border: solid 0.2rem;
-    padding: 1rem;
-    margin-left: 5rem;
-    margin-top: 2rem;
-     box-shadow: 4px 4px 12px rgb(169, 169, 169);
+    /* border: solid 0.2rem; */
+    padding:  0 ;
+    /* margin-left: 1rem; */
+    /* box-shadow: 4px 4px 12px rgb(169, 169, 169); */
     
 }
 
