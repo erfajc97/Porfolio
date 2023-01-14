@@ -1,0 +1,173 @@
+
+main{ background-color: #fffcfc;}
+.container-main{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+ 
+    display: flex;
+    flex-direction: column;
+    
+}
+.container-presentation{
+    color: aliceblue;
+   background-image: url(../Img/backgroundHero.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title-name{
+    font-size: 50px;
+    border: 0.2rem solid;
+    padding: 0.5rem;
+    box-shadow: 4px 4px 20px rgb(0,0,0);
+}
+
+.iam{
+    font-size: 15px;
+
+    margin-top: 4rem;
+}
+
+.iam{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+}
+
+.bounce-in-top {
+	-webkit-animation: bounce-in-top 1.1s both;
+	        animation: bounce-in-top 1.1s both;
+}
+
+.slide-in-elliptic-top-fwd {
+	-webkit-animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+.container-about-me{
+    width: 80%;
+    margin: 1rem auto;
+   
+}
+.about-me{
+   padding: 2rem auto;
+    font-size: 30px;
+    color: #173b6c;
+}
+
+.container-about-me img{
+    
+    min-height: 100%;
+    max-width: 100%;
+    margin: 3rem auto;
+    display: block;
+    fill: cover;
+    border-radius: 25px;
+    box-shadow: 8px 8px 30px rgb(0,0,0);
+
+    /* background-color: aqua; */
+}
+
+.slit-in-vertical {
+	-webkit-animation: slit-in-vertical 1s ease-out both;
+	        animation: slit-in-vertical 1s ease-out both ;
+            
+}
+
+.title-description-about-me{
+    color: #173b6c;
+    font-size: 23px;
+    margin-bottom: 3rem;
+}
+
+.description__aboutMe{
+    height: 150px;
+    overflow: hidden;
+    overflow: scroll;
+    font-size: 18px;
+    border: 0.1rem solid;
+    padding: 1rem;
+    border-radius: 10px;
+     box-shadow: 4px 4px 20px rgb(0,0,0);
+     overflow-x: hidden;
+    
+}
+
+
+@media screen and (min-width: 600px) {
+    main{
+    margin-left: 17%;
+    }
+
+
+.title-name{
+    font-size: 150px;
+}
+
+.iam{
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+.articule_aboutMe-Photo{
+    padding-left: 2rem;
+}
+
+.container-about-me{
+    display: flex;
+    gap: 5rem;
+    margin: 2rem 2rem 0 0;
+    width: 100%;
+
+}
+
+.about-me{
+   padding: 1rem;
+    font-size: 50px; 
+    border: 0.2rem solid;
+}
+
+.descriptionArticule-AboutMe{
+    padding-right: 5rem;
+   
+}
+.title-description-about-me{
+    font-size: 40px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    
+}
+
+
+.description__aboutMe{
+    min-height: 300px;
+   overflow: hidden;
+   border: 0.01rem;
+    margin-top: -1rem;  
+ 
+}
+
+
+.container-img-aboutme{
+    margin-top: 4rem;
+}
+
+.container-main {
+   position: relative;
+}
+
+
+.container-main button{
+    position: absolute;
+    left: 5rem;
+}
+}

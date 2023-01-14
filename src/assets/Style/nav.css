@@ -1,0 +1,161 @@
+
+.menu{
+     background-color: rgb(30, 30, 30);
+     width: 80%;
+     height:100vh;
+     position: fixed;
+    z-index: 100;
+   
+    
+}
+.container-btn-menu{
+    background-color: #149ddd;
+    position: fixed;
+    border-radius: 50%;
+    padding: 0.1rem;
+    right: 0.8rem;
+    top: 5rem;
+    border: none;
+    z-index: 10;
+   border: 0.1rem solid;
+    box-shadow: 4px 4px 12px rgb(0, 0, 0);
+    
+}
+
+#btn-menu{
+    color: rgb(243, 243, 243);
+}
+
+
+.container-photo-profile{
+
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0.3rem solid rgb(103, 95, 95);
+        margin: 0 auto;
+        box-shadow: 4px 4px 12px rgb(120, 119, 119);
+        
+}
+
+
+.photo-profile{
+    width: 200px;
+    height: 160px;
+    padding: 0.5rem;
+    animation-name: scalaanimation;
+    animation-duration: 4s;
+}
+
+.name-profile{
+    font-weight: 400 ;
+     text-align: center;
+    /* animation-name: scalaanimation; */
+    animation-duration: 4s;
+    color: aliceblue;
+}
+
+.link-contacts{
+    width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(52, 47, 47);
+    
+   
+}
+
+i{
+    color: rgb(36, 31, 31);
+    color: aliceblue;
+}
+
+.container-contents{
+    /* background-color: aqua; */
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+a{
+   color: rgb(18, 17, 17);
+    list-style-type: none;
+    text-decoration: none;
+  
+}
+label{
+    width: 200px;
+    display: flex;
+    /* margin-left: 4rem; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    position: relative;
+    color: aliceblue;
+}
+
+#home, #aboutMe,#studies,#portafile,#skill,#contacts{
+    position: absolute;
+    left: 1rem;
+}
+
+label p{
+    font-size: 18px;
+}
+
+.contacts{
+    border: solid 0.2rem;
+    padding: 1rem;
+    margin-left: 5rem;
+    margin-top: 2rem;
+     box-shadow: 4px 4px 12px rgb(169, 169, 169);
+    
+}
+
+.menuDesplegado{
+    display: block;
+}
+
+.menuNoDesplegado{
+ display: none;
+}
+
+
+@keyframes scalaanimation{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.3);
+    }
+    100%{
+        transform: scale(1);
+    }
+
+
+}
+
+
+@media screen and (min-width: 600px) {
+
+    .container-btn-menu{
+        display: none;
+    }
+    
+    .menu{
+        
+         width: 17%;
+         padding-left: 2rem;
+         height: 100vh;
+         display: block;
+    }
+    
+}
