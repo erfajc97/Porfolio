@@ -2,7 +2,7 @@
 .menu{
      background-color: rgb(30, 30, 30);
      width: 80%;
-     height:100vh;
+     height: calc(100vh -2rem) ;
      position: fixed;
      z-index: 100;
    
