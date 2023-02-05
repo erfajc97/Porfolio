@@ -2,20 +2,23 @@ import React from 'react';
 
 const Skills = () => {
     return (
-      <div className='principal_container_skills' >
+      <div className="principal_container_skills">
         <div className="container_title_skils">
-
-        <h3 className="title_skills">Skills</h3>
+          <h3 id="skills" className="title_skills">
+            Skills
+          </h3>
         </div>
 
-        <p >
+        <p>
           "Technology is just a tool. In terms of achieving things, the human
           being is worth more" - Bill Gates
         </p>
 
         <div className="container_skills_description">
           <div className="contain_info_skills">
-            <i class="bx bx-group bx-border-circle bx-md"></i>
+            <div className="container_i_circule_bx">
+              <i className="bx bx-group bx-border-circle bx-md"></i>
+            </div>
             <div className="info_skills">
               <b>Teamwork</b>
               <p>None of us is as good as all of us put together.</p>
@@ -23,7 +26,9 @@ const Skills = () => {
           </div>
 
           <div className="contain_info_skills">
-            <i class="bx bx-time-five bx-border-circle bx-md"></i>
+            <div className="container_i_circule_bx">
+              <i className="bx bx-time-five bx-border-circle bx-md"></i>
+            </div>
             <div className="info_skills">
               <b>Time management</b>
               <p>Knowing how to choose time is saving time.</p>
@@ -31,7 +36,9 @@ const Skills = () => {
           </div>
 
           <div className="contain_info_skills">
-            <i class="bx bx-wrench bx-border-circle bx-md"></i>
+            <div className="container_i_circule_bx">
+              <i className="bx bx-wrench bx-border-circle bx-md"></i>
+            </div>
 
             <div className="info_skills">
               <b>Problem resolution</b>
@@ -43,7 +50,9 @@ const Skills = () => {
           </div>
 
           <div className="contain_info_skills">
-            <i class="bx bx-category-alt  bx-border-circle bx-md"></i>
+            <div className="container_i_circule_bx">
+              <i className="bx bx-category-alt  bx-border-circle bx-md"></i>
+            </div>
 
             <div className="info_skills">
               <b>Adaptation</b>
@@ -52,7 +61,9 @@ const Skills = () => {
           </div>
 
           <div className="contain_info_skills">
-            <i class="bx bx-message-square-detail bx-border-circle bx-md"></i>
+            <div className="container_i_circule_bx">
+              <i className="bx bx-message-square-detail bx-border-circle bx-md"></i>
+            </div>
             <div className="info_skills">
               <b>Responsibility</b>
               <p>Greatness is about responsibility, not making excuses.</p>
@@ -60,7 +71,9 @@ const Skills = () => {
           </div>
 
           <div className="contain_info_skills">
-            <i class="bx bx-group bx-border-circle bx-md"></i>
+            <div className="container_i_circule_bx">
+              <i className="bx bx-group bx-border-circle bx-md"></i>
+            </div>
             <div className="info_skills">
               <b>Comunication</b>
               <p>Communication is a window of opportunity.</p>

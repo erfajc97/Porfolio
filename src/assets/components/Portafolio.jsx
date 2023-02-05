@@ -9,7 +9,7 @@ const Portafolio = () => {
     return (
       <div className="container_principal_porfolio">
         <div className="container_title_porfolio">
-          <h2 className="title_portfolio">Portfolio</h2>
+          <h2 id='porfolio' className="title_portfolio">Portfolio</h2>
         </div>
         <p id='quote_George' >"Curiosity is the engine of learning" - George Loewenstein</p>
 

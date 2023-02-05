@@ -12,24 +12,29 @@ import { useRef } from 'react'
 
 function App() {
   const [windowsSides, setWindowsSides] = useState(window.innerWidth);
+  const [btnMenu, setBtnMenu] = useState("true");
   const [buttonMenu, setButtonMenu] = useState("menuDesplegado");
   
   console.log(windowsSides);
 
   useEffect(()=>{
-    if(windowsSides <= 600){
+    if(windowsSides <= 800){
      setButtonMenu("menuNoDesplegado");
     }
 
   },[])
 
+
+
   const navMenu = () =>{
 
     if(buttonMenu === "menuDesplegado"){
        setButtonMenu("menuNoDesplegado");
+       setBtnMenu(true)
 
     }else{
       setButtonMenu("menuDesplegado");
+      setBtnMenu(false);
     }
   }
 
@@ -39,7 +44,7 @@ function App() {
         <Navmenu buttonMenu={buttonMenu} />
 
         <button onClick={navMenu} className="container-btn-menu">
-          {buttonMenu ? (
+          {btnMenu ? (
             <i id="btn-menu" className="bx  bx-menu bx-lg"></i>
           ) : (
             <i id="btn-menu" className="bx  bx-x bx-lg"></i>
@@ -48,11 +53,13 @@ function App() {
       </header>
 
       <main>
-       <MainPrincipal/>
-       <Knowledge/>
-       <Portafolio/>
-       <Skills/>
-       <Contacts/>
+        <MainPrincipal />
+       
+        <Knowledge />
+        <Portafolio />
+        <Skills />
+        <Contacts />
+       
       </main>
     </div>
   );

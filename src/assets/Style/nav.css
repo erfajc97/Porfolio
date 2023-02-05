@@ -142,8 +142,46 @@ label p{
 
 }
 
+@media screen and (min-width: 600px) and (max-width: 950px) {
+   .container-btn-menu{
+        display: none;
+    }
+    
+    .menu{
+        
+         width: 37%;
+         padding-left: 2rem;
+         height: 100vh;
+         display: block;
+    }
 
-@media screen and (min-width: 600px) {
+    main{
+        margin-left: 35%;
+    }
+
+}
+@media screen and (min-width: 950px) and (max-width: 1500px) {
+   .container-btn-menu{
+        display: none;
+    }
+    
+    .menu{
+        
+         width: 25%;
+         padding-left: 2rem;
+         height: 100vh;
+         display: block;
+    }
+
+       main{
+        margin-left: 25%;
+      
+    }
+
+}
+
+
+@media screen and (min-width: 1501px) {
 
     .container-btn-menu{
         display: none;
@@ -156,5 +194,17 @@ label p{
          height: 100vh;
          display: block;
     }
+
+        main{
+        margin-left: 17%;
+      
+    }
+
+
+ 
+
+
+
+   
     
 }

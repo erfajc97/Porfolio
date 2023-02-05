@@ -4,7 +4,7 @@ import PhotoProfile from "../Img/profile.jpeg";
 
 const Navmenu = ({ buttonMenu }) => {
   return (
-    <nav className={`menu ${buttonMenu}` }  >
+    <nav className={`menu ${buttonMenu}`}>
       <br />
       <br></br>
       <div className="container-photo-profile ">
@@ -14,13 +14,13 @@ const Navmenu = ({ buttonMenu }) => {
       <h1 className="name-profile">Erick Jimenez</h1>
 
       <div className="link-contacts">
-        <a href="#">
+        <a href="https://www.linkedin.com/in/erickjimenezcruz/" target="_blank">
           <i className="bx bxl-linkedin bx-md bx-tada"></i>
         </a>
-        <a href="#">
+        <a href="https://github.com/erfajc97" target="_blank">
           <i className="bx bxl-github bx-md bx-tada"></i>
         </a>
-        <a href="#">
+        <a href="../utils/Profile.pdf" download>
           <i className="bx bxs-file-blank bx-md bx-tada"></i>
         </a>
       </div>
@@ -33,7 +33,7 @@ const Navmenu = ({ buttonMenu }) => {
           </label>
         </a>
 
-        <a href="#">
+        <a href="#aboutME_">
           <label htmlFor="aboutMe">
             <i id="aboutMe" className="bx bx-user bx-md "></i>
 
@@ -41,21 +41,21 @@ const Navmenu = ({ buttonMenu }) => {
           </label>
         </a>
 
-        <a href="#">
+        <a href="#tecnologies">
           <label htmlFor="studies">
             <i id="studies" className="bx bxs-file-blank bx-md "></i>
             <p>Studies</p>
           </label>
         </a>
 
-        <a href="#">
+        <a href="#porfolio">
           <label htmlFor="portafile">
             <i id="portafile" className="bx bxs-book-content bx-md "></i>
             <p>Portafile</p>
           </label>
         </a>
 
-        <a href="#">
+        <a href="#skills">
           <label htmlFor="skill">
             <i id="skill" className="bx bx-server bx-md "></i>
 
@@ -63,7 +63,7 @@ const Navmenu = ({ buttonMenu }) => {
           </label>
         </a>
 
-        <a href="#">
+        <a href="#contactaMe">
           <label className="contacts bx-flashing" htmlFor="contacts">
             <i id="contacts" className="bx bx-envelope  bx-md "></i> <br />
             <p>Contact me</p>

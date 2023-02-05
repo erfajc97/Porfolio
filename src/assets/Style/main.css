@@ -4,7 +4,6 @@ main{ background-color: #fffcfc;}
     width: 100%;
     height: 100%;
     margin: 0 auto;
- 
     display: flex;
     flex-direction: column;
     
@@ -89,7 +88,7 @@ main{ background-color: #fffcfc;}
 
 .description__aboutMe{
     height: 150px;
-    overflow: hidden;
+    
     overflow: scroll;
     font-size: 18px;
     border: 0.1rem solid;
@@ -100,15 +99,26 @@ main{ background-color: #fffcfc;}
     
 }
 
+.container-img-aboutme{
+    margin: 3rem auto;
+    
+    width: 100%;
+    
+}
+.imgAboutme{
+    object-fit: contain;
+    height: 300px;
+}
 
-@media screen and (min-width: 600px) {
-    main{
-    margin-left: 17%;
-    }
+
+@media screen and (min-width: 1300px) {
+    
+
 
 
 .title-name{
     font-size: 150px;
+    padding: 0 2rem;
 }
 
 .iam{
@@ -130,7 +140,9 @@ main{ background-color: #fffcfc;}
 }
 
 .about-me{
-   padding: 1rem;
+   padding: 0.5rem;
+   display: flex;
+   justify-content: center;
     font-size: 50px; 
     border: 0.2rem solid;
 }
@@ -149,16 +161,24 @@ main{ background-color: #fffcfc;}
 
 
 .description__aboutMe{
-    min-height: 300px;
-   overflow: hidden;
+    min-height: 350px;
+    overflow: scroll;
    border: 0.01rem;
     margin-top: -1rem;  
+    overflow-x: hidden;
  
 }
 
 
 .container-img-aboutme{
     margin-top: 4rem;
+    height: 100px;
+    width: 400px;
+    
+}
+.imgAboutme{
+    object-fit: contain;
+    height: 250px;
 }
 
 .container-main {

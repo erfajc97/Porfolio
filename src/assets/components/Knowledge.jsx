@@ -14,20 +14,20 @@ const Knowledge = () => {
       <div className="container-knowledge">
         <div className="tecnologies">
           <div className="containerTitle">
-            <h3 className="title_tecnologies">Tecnologies</h3>
+            <h3 id='tecnologies' className="title_tecnologies">Tecnologies</h3>
           </div>
           <p className="description-knowledge">
             I will show you some of the technologies that I use in my day to day
           </p>
           <div className="container-img-tecnologies">
-            <img src={html} alt="" />
-            <img src={css} alt="" />
-            <img src={javascript} alt="" />
-            <img src={react} alt="" />
-            <img src={bootstrap} alt="" />
-            <img className="gitimg" src={git} alt="" />
-            <img className="githubimg" src={github} alt="" />
-            <img src={nodejs} alt="" />
+            <img className="img_tec" src={html} alt="" />
+            <img className="img_tec" src={css} alt="" />
+            <img className="img_tec" src={javascript} alt="" />
+            <img className="img_tec" src={react} alt="" />
+            <img className="img_tec" src={bootstrap} alt="" />
+            <img className="gitimg img_tec" src={git} alt="" />
+            <img className="githubimg img_tec" src={github} alt="" />
+            <img className="img_tec" src={nodejs} alt="" />
           </div>
         </div>
 
@@ -46,29 +46,30 @@ const Knowledge = () => {
               <b>Full Stack - Web Developer</b>
               <p>
                 {" "}
-                <i id="pointStudies" class="bx bx-map-pin"></i>Academlo
+                <i id="pointStudies" className="bx bx-map-pin"></i>Academlo
               </p>
             </div>
 
             <div className="container-places-studies">
               <b>Computing science engineer</b>
               <p>
-                <i id="pointStudies" class="bx bx-map-pin"></i>Espíritu Santo
-                University of Specialties
+                <i id="pointStudies" className="bx bx-map-pin"></i>Espíritu
+                Santo University of Specialties
               </p>
             </div>
 
             <div className="container-places-studies">
               <b>Back-End</b>
               <p>
-                <i id="pointStudies" class="bx bx-map-pin"></i>Oracle - Alura
+                <i id="pointStudies" className="bx bx-map-pin"></i>Oracle -
+                Alura
               </p>
             </div>
 
             <div className="container-places-studies">
               <b>English</b>
               <p>
-                <i id="pointStudies" class="bx bx-map-pin"></i> B1 
+                <i id="pointStudies" className="bx bx-map-pin"></i> B1
               </p>
             </div>
           </div>

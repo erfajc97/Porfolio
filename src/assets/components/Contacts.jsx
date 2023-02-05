@@ -4,8 +4,9 @@ const Contacts = () => {
     return (
       <div className="principal_container_form">
         <div className="contatiner_title_contacts">
-
-        <h2 className="title_contacts">Contacts</h2>
+          <h2 id="contactaMe" className="title_contacts">
+            Contacts
+          </h2>
         </div>
         <p className="description_contacts">
           Winning doesn't always mean being first. Winning means you're doing
@@ -16,7 +17,7 @@ const Contacts = () => {
           <div className="container_location">
             <div className="location">
               <div className="container_img_location">
-                <i class="bx bx-map bx-md"></i>
+                <i className=" img_contcs bx bx-map bx-md"></i>
               </div>
               <div className="info_contact">
                 <b>Ecuador, Argentina</b>
@@ -26,7 +27,7 @@ const Contacts = () => {
 
             <div className="location">
               <div className="container_img_location">
-                <i class="bx bx-envelope bx-md"></i>
+                <i className=" img_contcs bx bx-envelope bx-md"></i>
               </div>
               <div className="info_contact">
                 <b>E-mail:</b>
@@ -36,7 +37,7 @@ const Contacts = () => {
             </div>
             <div className="location">
               <div className="container_img_location">
-                <i class="bx bxl-whatsapp bx-md"></i>
+                <i className=" img_contcs bx bxl-whatsapp bx-md"></i>
               </div>
               <div className="info_contact">
                 <b>Whatsapp</b>
@@ -45,10 +46,11 @@ const Contacts = () => {
               </div>
             </div>
             <div className="container_linkWs">
-
-            <a href="https://api.whatsapp.com/send/?phone=%2B5491176325093&text&type=phone_number&app_absent=0">
-              <button className="link_whatsapp">Link Whatsapp</button>
-            </a>
+              <a
+                href="https://api.whatsapp.com/send/?phone=%2B5491176325093&text&type=phone_number&app_absent=0"
+                target="_blank">
+                <button className="link_whatsapp">Link Whatsapp</button>
+              </a>
             </div>
 
             <div className="map">
@@ -59,27 +61,30 @@ const Contacts = () => {
             </div>
           </div>
           <form>
-            <label htmlFor="name">
-              <b>Name</b>
+            <label htmlFor="firstName">
+              <b>First Name</b>
             </label>
-            <input id="name" type="text" />
+            <input id="firstName" type="text" placeholder="Your Name" />
+            <label htmlFor="lastName">
+              <b>Last Name</b>
+            </label>
+            <input id="lastName" type="text" placeholder="Your Last Name" />
             <label htmlFor="e-mail">
               <b>E-mail:</b>
             </label>
-            <input id="e-mail" type="e-mail" />
+            <input id="e-mail" type="e-mail" placeholder="erfajc97@gmail.com" />
             <label htmlFor="subject">
               <b>Subject:</b>
             </label>
-            <input id="subject" type="text" />
+            <input id="subject" type="text" placeholder="Interview" />
             <label htmlFor="message">
               {" "}
               <b>Message</b>{" "}
             </label>
             <textarea id="message" cols="30" rows="10"></textarea>
-              <div className="container_submit">
-
-            <button className="submit">Submit</button>
-              </div>
+            <div className="container_submit">
+              <button className="submit">Submit</button>
+            </div>
           </form>
         </div>
       </div>

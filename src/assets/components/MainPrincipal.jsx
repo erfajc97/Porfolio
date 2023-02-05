@@ -1,35 +1,30 @@
-import React from 'react';
+import React from "react";
 import PhotoAboutme from "../Img/WhatsApp Image 2023-01-12 at 7.37.05 PM.jpg";
 
 const MainPrincipal = () => {
+  return (
+    <div className="container-main  ">
+      <div className="container-presentation ">
+        <h2 className="title-name bounce-in-top "> Erick Jimenez</h2>
 
-
-
-    return (
-      <div className="container-main  ">
-        <div className="container-presentation ">
-          <h2 className="title-name bounce-in-top "> Erick Jimenez</h2>
-
-          <div className="iam slide-in-elliptic-top-fwd">
-            <p className="animated-text first">Computing science engineer</p>
-            <p className="animated-text ">Web developer</p>
-            <p className="animated-text ">Full stack developer</p>
-          </div>
+        <div className="iam slide-in-elliptic-top-fwd">
+          <p className="animated-text first">Computing science engineer</p>
+          <p className="animated-text ">Web developer</p>
+          <p className="animated-text ">Full stack developer</p>
         </div>
+      </div>
 
-        <div className="container-about-me">
-            <article className='articule_aboutMe-Photo' >
-
-          <h3 className="about-me">Abotu Me</h3>
+      <div className="container-about-me">
+        <article className="articule_aboutMe-Photo">
+          <h3 id="aboutME_" className="about-me">
+            About Me
+          </h3>
           <div className="container-img-aboutme slit-in-vertical">
-            <img src={PhotoAboutme} alt="" />
+            <img className="imgAboutme" src={PhotoAboutme} alt="" />
           </div>
+        </article>
 
-            </article>
-
-
-            <article className="descriptionArticule-AboutMe">
-
+        <article className="descriptionArticule-AboutMe">
           <h3 className="title-description-about-me">Web Developer</h3>
 
           <p className="quote">
@@ -65,15 +60,17 @@ const MainPrincipal = () => {
             and NFTs.
           </p>
         </article>
-        </div>
-
-        <div className="container-button">
-            <br /><br />
-        <button className='btn-buttonCV' >Download CV</button>
-        </div>
-        
       </div>
-    );
+
+      <div className="container-button">
+        <br />
+        <br />
+        <a href="../utils/Profile.pdf" download>
+          <button className="btn-buttonCV">Download CV</button>
+        </a>
+      </div>
+    </div>
+  );
 };
 
 export default MainPrincipal;
