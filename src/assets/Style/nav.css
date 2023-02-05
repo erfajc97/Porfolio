@@ -143,6 +143,9 @@ label p{
 }
 
 @media screen and (min-width: 600px) and (max-width: 950px) {
+
+
+
    .container-btn-menu{
         display: none;
     }
