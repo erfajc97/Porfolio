@@ -32,6 +32,7 @@ const Portafolio = () => {
 
       <div className="container_img_portfolio">
         <div className="container_info_img_porfolio">
+         
           <img className="img_porf" id="img6" src={img6} alt="" />
           <div className="container_buttons_porfolio">
             <p className="btn-links_porfolio">
