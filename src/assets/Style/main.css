@@ -69,7 +69,8 @@ main{ background-color: #fffcfc;}
     display: block;
     fill: cover;
     border-radius: 25px;
-    box-shadow: 8px 8px 30px rgb(0,0,0);
+    /* box-shadow: 8px 8px 30px rgb(0,0,0); */
+    /* background-color: beige; */
 
     /* background-color: aqua; */
 }
@@ -108,7 +109,10 @@ main{ background-color: #fffcfc;}
 .imgAboutme{
     object-fit: contain;
     height: 300px;
+   
 }
+
+
 
 
 @media screen and (min-width: 1300px) {
