@@ -68,7 +68,7 @@ main{ background-color: #fffcfc;}
     margin: 3rem auto;
     display: block;
     fill: cover;
-    border-radius: 25px;
+    border-radius: 10px;
     /* box-shadow: 8px 8px 30px rgb(0,0,0); */
     /* background-color: beige; */
 
@@ -94,7 +94,7 @@ main{ background-color: #fffcfc;}
     font-size: 18px;
     border: 0.1rem solid;
     padding: 1rem;
-    border-radius: 10px;
+ 
      box-shadow: 4px 4px 20px rgb(0,0,0);
      overflow-x: hidden;
     
