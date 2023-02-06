@@ -1,5 +1,6 @@
 import React from 'react';
 import PhotoProfile from "../Img/profile.jpeg";
+import pdfcv from "../utils/Profile.pdf";
 
 
 const Navmenu = ({ buttonMenu }) => {
@@ -20,9 +21,11 @@ const Navmenu = ({ buttonMenu }) => {
         <a href="https://github.com/erfajc97" target="_blank">
           <i className="bx bxl-github bx-md bx-tada"></i>
         </a>
-        <a href="../utils/Profile.pdf" download>
+
+        <a href={pdfcv}>
           <i className="bx bxs-file-blank bx-md bx-tada"></i>
         </a>
+        
       </div>
 
       <div className="container-contents">

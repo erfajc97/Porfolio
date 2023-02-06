@@ -1,6 +1,6 @@
 import React from "react";
 import PhotoAboutme from "../Img/WhatsApp Image 2023-01-12 at 7.37.05 PM.jpg";
-
+import pdfcv from "../utils/Profile.pdf";
 const MainPrincipal = () => {
   return (
     <div className="container-main  ">
@@ -65,7 +65,7 @@ const MainPrincipal = () => {
       <div className="container-button">
         <br />
         <br />
-        <a href="../utils/Profile.pdf" download>
+        <a href={pdfcv} download>
           <button className="btn-buttonCV">Download CV</button>
         </a>
       </div>
