@@ -22,10 +22,10 @@ const Navmenu = ({ buttonMenu }) => {
           <i className="bx bxl-github bx-md bx-tada"></i>
         </a>
 
-        <a href={pdfcv}>
+        <a href={pdfcv} target="_blank" >
           <i className="bx bxs-file-blank bx-md bx-tada"></i>
         </a>
-        
+
       </div>
 
       <div className="container-contents">
