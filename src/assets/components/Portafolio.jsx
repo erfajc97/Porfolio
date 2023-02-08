@@ -78,7 +78,7 @@ const Portafolio = () => {
             <p> {arrayDescription[numberArray]?.description}</p>
           </div>
           <button onClick={appear} className="btn_x_img">
-            <i className="bx bx-x bx-lg"></i>
+            <i className=" btnxxx bx bx-x bx-lg"></i>
           </button>
         </div>
       </div>
