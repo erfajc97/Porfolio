@@ -60,6 +60,47 @@
 
 }
 
+.container_info_img_por{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.789);
+    z-index: 1500;
+   
+}
+.container_info_descrip_button{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 500px;
+}
+.btn_x_img{
+    position: absolute;
+    top: -3rem;
+    right: 0;
+}
+.bx-x{
+    background-color: black;
+    color: aliceblue;
+}
+
+.img_porf_appear{
+    object-fit: contain;
+    min-height: 500px;
+    width: 100%;
+}
+
+
 
 @media screen and  (min-width: 600px) and (max-width: 980px){
 
