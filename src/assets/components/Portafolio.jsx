@@ -9,13 +9,56 @@ import img7 from "../Img/ImgPortafolio/img7.png";
 import img8 from "../Img/ImgPortafolio/img8.png";
 
 const Portafolio = () => {
-  const [on, setOn] = useState(true);
+  const [on, setOn] = useState(false);
   const array = [img1, img2, img3, img4, img5, img6, img7, img8];
   const [numberArray, setNumberArray] = useState(0);
+  const arrayDescription = [
+    {
+      title: "E-commers",
+      description:
+      "E- commers project made with React, Redux.Multiple functions with buttons.Shopping cart, Login, create user, etc",
+    },
+    {
+      title: "Rick and Morty",
+      description:
+      "On this Rick and Morty page, you can appreciate my abilities to consume Apis. This app is used to filter your favorite character from this series. It also has a filtering system by pagination and by keywords",
+    },
+    {
+      title: "CRUD USERS",
+      description:
+      "Application in which I demonstrate my skills in CRUD. How to create, read, update and delete. Making use of a private api.",
+    },
+    {
+      title: "Our Prices",
+      description:
+      "On this page is a filter by prices.I only use css therefore in this as in all my projects you will see my skills in design",
+    },
+    {
+      title: "Barbershop",
+      description:
+      "Page for a client who has his barbershop. You can offer your services at the height of our digital world",
+    },
+    {
+      title: "Pokedex",
+      description:
+      "App pokedex. Use of the pokemon API to create an application in which you can filter by your favorite pokemon",
+    },
+    {
+      title: "Weather App",
+      description:
+        "Application in which you can see the weather according to the location in which you are",
+    },
+    {
+      title: "Encryptor",
+      description:
+        "With this app you can write a message and encrypt, copy and decrypt it, so you can send secret messages to your friends.",
+    },
+  ];
   const appear = (num) => {
     setOn(!on);
     setNumberArray(num);
   };
+
 
   return (
     <div className="container_principal_porfolio">
@@ -23,7 +66,13 @@ const Portafolio = () => {
         style={{ display: on ? "flex" : "none" }}
         className="container_info_img_por">
         <div className="container_info_descrip_button">
+          <h3 className="title_img_appear">
+            {arrayDescription[numberArray]?.title}
+          </h3>
           <img className="img_porf_appear" src={array[numberArray]} />
+          <div className="container_des_appear">
+            <p> {arrayDescription[numberArray]?.description}</p>
+          </div>
           <button onClick={appear} className="btn_x_img">
             <i className="bx bx-x bx-lg"></i>
           </button>

@@ -96,8 +96,26 @@
 
 .img_porf_appear{
     object-fit: contain;
-    min-height: 500px;
+    min-height: 220px;
     width: 100%;
+}
+
+.title_img_appear{
+    border: 0.2rem solid;
+    color: aliceblue;
+    margin-bottom: 1rem;
+    font-size: 35px;
+    padding: 0.2rem 1rem;
+    background-color: rgb(18, 18, 18);
+}
+
+.container_des_appear{
+    color: aliceblue;
+    background-color: rgb(27, 26, 26);
+    text-align: center;
+  
+    padding: 0.5rem ;
+    border-radius: 10px;
 }
 
 
@@ -117,6 +135,23 @@
    
 }
 
+.img_porf_appear{
+    object-fit: contain;
+    min-height: 400px;
+    width: 100%;
+}
+
+.container_des_appear{
+
+   margin-top: 2rem;
+}
+
+.title_img_appear{
+  
+    font-size: 40px;
+  
+}
+
     
 }
 
@@ -133,4 +168,23 @@
         
         padding-left: 5rem;
 }
+
+.container_des_appear{
+  
+   margin-top: 2rem;
+}
+
+.title_img_appear{
+  
+    font-size: 50px;
+  
+}
+.img_porf_appear{
+    object-fit: contain;
+    min-height: 500px;
+    width: 100%;
+}
+
+
+
 }
