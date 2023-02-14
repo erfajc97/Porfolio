@@ -12,7 +12,7 @@ const Contacts = () => {
     emailjs.sendForm('service_vlargl8', 'template_uv17arw', form.current, 'WfDf2S938hj73rz9t')
       .then((result) => {
           console.log(result.text);
-          alert("Thank you for contact me")
+          alert("Thanks for contacting me.I will write to your email soon.")
       }, (error) => {
           console.log(error.text);
       });
