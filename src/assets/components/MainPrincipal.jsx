@@ -35,7 +35,7 @@ const MainPrincipal = () => {
           <br />
           <br />
           <p className="description__aboutMe">
-            I am almost a computer engineer, (thesis process). Espíritu Santo
+            I am Computer Engineer. Espíritu Santo
             University of Specialties (UEES). Of Ecuadorian nationality, but I
             live traveling in different parts of the world. I am currently
             living in Argentina. I'm 25 years old.

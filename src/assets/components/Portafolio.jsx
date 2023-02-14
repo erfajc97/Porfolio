@@ -102,10 +102,10 @@ const Portafolio = () => {
         </div>
       </div>
 
-      <div className="container_img_portfolio">
-        <div className="container_info_img_porfolio">
-          <img className="img_porf" id="img6" src={img6} alt="" />
-          <div className="container_buttons_porfolio">
+      <div className="  container_img_portfolio">
+        <div className=" container_info_img_porfolio">
+          <img className="  img_porf" id="img6" src={img6} alt="" />
+          <div className=" container_buttons_porfolio">
             <p onClick={() => appear(5)} className="btn-links_porfolio">
               <i className="icon-pf bx bx-plus bx-lg"></i>
             </p>

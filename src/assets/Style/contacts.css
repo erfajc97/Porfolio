@@ -129,8 +129,12 @@ textarea{
     background:  #64b5f6;
     color: aliceblue;
     font-size: 20px;
-    padding: 1rem;
-    margin: 1rem 0;
+    padding: 1rem 3rem;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 form input, textarea{
@@ -202,6 +206,7 @@ form input, textarea{
 }
 
 .submit{
+
     width: 80%;
     font-size: 25px;
     font-weight: 700;

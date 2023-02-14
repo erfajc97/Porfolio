@@ -1,6 +1,25 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
 
 const Contacts = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_vlargl8', 'template_uv17arw', form.current, 'WfDf2S938hj73rz9t')
+      .then((result) => {
+          console.log(result.text);
+          alert("Thank you for contact me")
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+  
+
+
     return (
       <div className="principal_container_form">
         <div className="contatiner_title_contacts">
@@ -60,30 +79,41 @@ const Contacts = () => {
                 }></iframe>
             </div>
           </div>
-          <form>
+
+          <form ref={form} onSubmit={sendEmail}>
             <label htmlFor="firstName">
-              <b>First Name</b>
+              <b>Name</b>
             </label>
-            <input id="firstName" type="text" placeholder="Your Name" />
-            <label htmlFor="lastName">
-              <b>Last Name</b>
-            </label>
-            <input id="lastName" type="text" placeholder="Your Last Name" />
+            <input
+              id="firstName"
+              name="user_name"
+              type="text"
+              placeholder="Name"
+            />
+
             <label htmlFor="e-mail">
               <b>E-mail:</b>
             </label>
-            <input id="e-mail" type="e-mail" placeholder="erfajc97@gmail.com" />
-            <label htmlFor="subject">
-              <b>Subject:</b>
-            </label>
-            <input id="subject" type="text" placeholder="Interview" />
+            <input
+              name="user_email"
+              id="e-mail"
+              type="e-mail"
+              placeholder="erfajc97@gmail.com"
+            />
+
             <label htmlFor="message">
               {" "}
               <b>Message</b>{" "}
             </label>
-            <textarea id="message" cols="30" rows="10"></textarea>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"></textarea>
             <div className="container_submit">
-              <button className="submit">Submit</button>
+              
+                <input className="submit" type="submit" value="Send" />
+            
             </div>
           </form>
         </div>
