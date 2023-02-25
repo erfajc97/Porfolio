@@ -37,15 +37,18 @@ const MainPrincipal = () => {
           <p className="description__aboutMe">
             I am Computer Engineer. Espíritu Santo
             University of Specialties (UEES).
+            <br />
             Full Stack Developer:
+            <br />
             Tecnologies:
+            <br />
             React,
             Node.js,
             Javascript,
             MongoDb,
             Postgres
-        <br />
-             Of Ecuadorian nationality, but I
+            <br />
+            Of Ecuadorian nationality, but I
             live traveling in different parts of the world. I am currently
             living in Argentina. I'm 25 years old.
             <br /> <br />
