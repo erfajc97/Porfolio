@@ -47,7 +47,7 @@ const MainPrincipal = () => {
             Javascript,
             MongoDb,
             Postgres
-            <br />
+            <br /> <br />
             Of Ecuadorian nationality, but I
             live traveling in different parts of the world. I am currently
             living in Argentina. I'm 25 years old.
