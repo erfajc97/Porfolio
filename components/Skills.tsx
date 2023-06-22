@@ -42,6 +42,8 @@ export default function Skills({ skills }: SkillBarProps) {
       <div className="text-WhiteGray font-semibold uppercase text-sm text-center">
         - Skills
       </div>
+
+      <div className="flex flex-col justify-center items-center">
       <div className="font-semibold text-3xl mt-4 text-center text-White">
         Technologies
       </div>
@@ -64,6 +66,7 @@ export default function Skills({ skills }: SkillBarProps) {
             </div> */}
           </div>
         ))}
+      </div>
       </div>
     </div>
   );

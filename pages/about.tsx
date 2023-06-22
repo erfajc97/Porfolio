@@ -48,8 +48,8 @@ export default function about() {
               </a>
             </div>
           </div>
-        </div>
         <Skills skills={skills}/>
+        </div>
       </Wrapper>
     </>
   );
