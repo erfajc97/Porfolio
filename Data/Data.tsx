@@ -70,12 +70,20 @@ const projects: ProjectProps[] = [
     git: "https://github.com/No-Country/c10-28-ft-reactchallenge-rn",
     link: "https://www.linkedin.com/feed/update/urn:li:activity:7056738971061485568/",
   },
+  {
+    id: 9,
+    img: "/project2.png",
+    name: "Inventory",
+    tools: ["React", " CSS", "Redux", "Ant D"],
+    git: "https://github.com/erfajc97/inventory",
+    link: "https://store-inventorya-app.netlify.app/",
+  },
    {
     id: 6,
     img: "/project2.png",
     name: "Ticket creation and management",
     tools: ["React", " Ant D", "Redux"],
-    git: "https://github.com/erfajc97/pokedex",
+    git: "https://github.com/erfajc97/Ticket",
     link: "https://ticketsflow.netlify.app/",
   },
    {
@@ -83,7 +91,7 @@ const projects: ProjectProps[] = [
     img: "/project2.png",
     name: "Detail Tickets",
     tools: ["React", " CSS", "Redux", "Ant D"],
-    git: "https://github.com/erfajc97/pokedex",
+    git: "",
     link: "https://www.loom.com/share/f101d1f7f1bb4842aa37c00466e11533",
   },
    {
@@ -91,7 +99,7 @@ const projects: ProjectProps[] = [
     img: "/project2.png",
     name: "Recreation of folder management like windows",
     tools: ["React", " CSS", "Redux", "Ant D"],
-    git: "https://github.com/erfajc97/pokedex",
+    git: "",
     link: "https://www.loom.com/share/23fbe712f3b742c58d48a295ccd790d6",
   },
   {
