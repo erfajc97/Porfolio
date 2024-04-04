@@ -72,7 +72,7 @@ const projects: ProjectProps[] = [
   },
   {
     id: 9,
-    img: "/project2.png",
+    img: "/inventory.png",
     name: "Inventory",
     tools: ["React", " CSS", "Redux", "Ant D"],
     git: "https://github.com/erfajc97/inventory",
@@ -80,7 +80,7 @@ const projects: ProjectProps[] = [
   },
    {
     id: 6,
-    img: "/project2.png",
+    img: "/tickets.png",
     name: "Ticket creation and management",
     tools: ["React", " Ant D", "Redux"],
     git: "https://github.com/erfajc97/Ticket",
@@ -88,7 +88,7 @@ const projects: ProjectProps[] = [
   },
    {
     id: 7,
-    img: "/project2.png",
+    img: "/detail.png",
     name: "Detail Tickets",
     tools: ["React", " CSS", "Redux", "Ant D"],
     git: "",
@@ -96,7 +96,7 @@ const projects: ProjectProps[] = [
   },
    {
     id: 8,
-    img: "/project2.png",
+    img: "/spaces.png",
     name: "Recreation of folder management like windows",
     tools: ["React", " CSS", "Redux", "Ant D"],
     git: "",
