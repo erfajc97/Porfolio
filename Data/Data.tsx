@@ -144,7 +144,6 @@ const skills = [
   { name: "GitHub", level: 70 },
   { name: "Ant D", level: 70 },
   { name: "Zustand", level: 70 },
-  { name: "Zustand", level: 70 },
   { name: "Zod", level: 70 },
   { name: "Radix U", level: 70 },
   { name: "CI/CD", level: 70 },
