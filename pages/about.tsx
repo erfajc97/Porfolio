@@ -36,7 +36,7 @@ export default function about() {
               <Link
                 href="/contact"
                 className="text-Orange font-semibold text-sm uppercase hover:underline"
-              >
+              >     
                 Contact Me
               </Link>
               <a

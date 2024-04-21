@@ -46,14 +46,14 @@ const countUpItems: countUpItemsProps[] = [
 ];
 
 const projects: ProjectProps[] = [
-  {
-    id: 1,
-    img: "/project5.png",
-    name: "Portfolio",
-    tools: ["Nextjs", "Tailwind", " Typescript"],
-    git: "https://github.com/erfajc97/Porfolio",
-    link: "https://erickjimenezcruz.netlify.app/",
-  },
+  // {
+  //   id: 1,
+  //   img: "/project5.png",
+  //   name: "Portfolio",
+  //   tools: ["Nextjs", "Tailwind", " Typescript"],
+  //   git: "https://github.com/erfajc97/Porfolio",
+  //   link: "https://erickjimenezcruz.netlify.app/",
+  // },
   {
     id: 2,
     img: "/project1.png",
@@ -102,22 +102,22 @@ const projects: ProjectProps[] = [
     git: "",
     link: "https://www.loom.com/share/23fbe712f3b742c58d48a295ccd790d6",
   },
-  {
-    id: 3,
-    img: "/project2.png",
-    name: "React Pokedex",
-    tools: ["React", " CSS", "Redux"],
-    git: "https://github.com/erfajc97/pokedex",
-    link: "https://moonlit-biscochitos-61e833.netlify.app/",
-  },
-  {
-    id: 5,
-    img: "/project4.png",
-    name: "Api Rick and Morty",
-    tools: ["React", "Sass", " CSS"],
-    git: "https://github.com/erfajc97/apiRickandMorty",
-    link: "https://neon-eclair-9386f3.netlify.app/",
-  },
+  // {
+  //   id: 3,
+  //   img: "/project2.png",
+  //   name: "React Pokedex",
+  //   tools: ["React", " CSS", "Redux"],
+  //   git: "https://github.com/erfajc97/pokedex",
+  //   link: "https://moonlit-biscochitos-61e833.netlify.app/",
+  // },
+  // {
+  //   id: 5,
+  //   img: "/project4.png",
+  //   name: "Api Rick and Morty",
+  //   tools: ["React", "Sass", " CSS"],
+  //   git: "https://github.com/erfajc97/apiRickandMorty",
+  //   link: "https://neon-eclair-9386f3.netlify.app/",
+  // },
 ];
 
 const skills = [
