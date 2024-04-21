@@ -1,7 +1,7 @@
 type WrapperProps = {
   pageIndex: number
   children: React.ReactNode
-  className? : string
+  className?: string
 }
 type NavLink = {
   path: string;
@@ -19,6 +19,7 @@ type ProjectProps = {
   id: number;
   img: string;
   name: string;
+  detail: string;
   tools: string[];
   git: string;
   link: string;

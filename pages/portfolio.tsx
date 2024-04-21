@@ -46,6 +46,7 @@ export default function Portfolio() {
                   </div>
                 </div>
                 <div className="text-White mt-2 text-start">{project.name}</div>
+                <div className="text-White mt-2 text-start">{project.detail}</div>
                 <div className="flex mt-2 flex-wrap gap-2">
                   {project.tools.map((tool) => (
                     <span
