@@ -1,9 +1,11 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/about": "pages/about.js",
-  "/portfolio": "pages/portfolio.js",
-  "/": "pages/index.js",
-  "/contact": "pages/contact.js"
+  "/api/hello": "pages/api/hello.js",
+  "/_error": "pages/_error.js",
+  "/about": "pages/about.html",
+  "/": "pages/index.html",
+  "/contact": "pages/contact.html",
+  "/portfolio": "pages/portfolio.html",
+  "/404": "pages/404.html"
 }
