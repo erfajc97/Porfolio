@@ -139,7 +139,7 @@ const skills = [
   { name: "Nodejs", level: 70 },
   { name: "Express", level: 70 },
   { name: "Sequelize", level: 70 },
-  { name: "PostgreSQL", level: 70 },
+  { name: "PostgreSQL ", level: 70 },
   { name: "Redux", level: 70 },
   { name: "GitHub", level: 70 },
   { name: "Ant D", level: 70 },
