@@ -13,7 +13,7 @@ export default function about() {
       <Wrapper pageIndex={2}>
         <div className="flex flex-col gap-12 lg:flex-row items-center justify-center mb-12 min-h-screen lg:mb-0 pt-28 lg:pt-0">
           <Image
-            src={"/about1.jpg"}
+            src={"/profile.png"}
             width={300}
             height={300}
             alt={"about image"}
@@ -24,7 +24,7 @@ export default function about() {
               - Introduction
             </div>
             <div className="font-semibold text-3xl mt-8 text-White uppercase">
-               FrontEnd Developer, based on AR BS AND EC GYE
+              FrontEnd Developer, based on AR BS AND EC GYE
             </div>
             <p className="text-WhiteGray text-sm mt-8 leading-7">
               {" "}
@@ -36,7 +36,7 @@ export default function about() {
               <Link
                 href="/contact"
                 className="text-Orange font-semibold text-sm uppercase hover:underline"
-              >     
+              >
                 Contact Me
               </Link>
               <a
@@ -48,7 +48,7 @@ export default function about() {
               </a>
             </div>
           </div>
-        <Skills skills={skills}/>
+          <Skills skills={skills} />
         </div>
       </Wrapper>
     </>
